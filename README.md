@@ -6,3 +6,4 @@
 
 - [**Deno**](https://deno.land)
 - [**Discordeno**](https://github.com/discordeno/discordeno)
+- [**Denobot**](https://deno.land/x/denobot)
