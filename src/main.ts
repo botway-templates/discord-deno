@@ -7,13 +7,13 @@ import {
   getAppId,
   getToken,
   startBot,
-} from "./deps.ts";
-import { logger } from "./src/utils/logger.ts";
-import { events } from "./src/events/mod.ts";
-import { updateCommands } from "./src/utils/helpers.ts";
+} from "../deps.ts";
+import { logger } from "./utils/logger.ts";
+import { events } from "./events/mod.ts";
+import { updateCommands } from "./utils/helpers.ts";
 
 const log = logger({ name: "Main" });
-const paths = ["./src/events", "./src/commands"];
+const paths = ["./events", "./commands"];
 
 log.info("Starting Bot, this might take a while...");
 
