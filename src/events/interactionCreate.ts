@@ -1,15 +1,6 @@
-import {
-  ApplicationCommandOptionTypes,
-  bgBlack,
-  bgYellow,
-  black,
-  BotWithCache,
-  green,
-  Guild,
-  red,
-  white,
-  yellow,
-} from "../../deps.ts";
+import { BotWithCache } from "discordeno/plugins/mod.ts";
+import { ApplicationCommandOptionTypes, Guild } from "discordeno/mod.ts";
+import { bgBlack, bgYellow, black, green, red, white, yellow } from "colors";
 import { events } from "./mod.ts";
 import { logger } from "../utils/logger.ts";
 import {

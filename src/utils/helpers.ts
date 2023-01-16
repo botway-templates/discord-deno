@@ -1,12 +1,12 @@
 import {
   Bot,
-  BotWithCache,
   CreateApplicationCommand,
   getGuild,
   Guild,
   MakeRequired,
   upsertApplicationCommands,
-} from "../../deps.ts";
+} from "discordeno/mod.ts";
+import { BotWithCache } from "discordeno/plugins/mod.ts";
 import { logger } from "./logger.ts";
 import { commands } from "../commands/mod.ts";
 import { subCommand, subCommandGroup } from "../commands/mod.ts";

@@ -4,7 +4,7 @@ import {
   Bot,
   Collection,
   Interaction,
-} from "../../deps.ts";
+} from "discordeno/mod.ts";
 
 export type subCommand = Omit<Command, "subcommands">;
 export type subCommandGroup = {

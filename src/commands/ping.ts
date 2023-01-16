@@ -1,7 +1,7 @@
 import {
   ApplicationCommandTypes,
   InteractionResponseTypes,
-} from "../../deps.ts";
+} from "discordeno/mod.ts";
 import {
   humanizeMilliseconds,
   snowflakeToTimestamp,

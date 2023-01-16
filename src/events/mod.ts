@@ -1,3 +1,3 @@
-import { EventHandlers } from "../../deps.ts";
+import { EventHandlers } from "discordeno/mod.ts";
 
 export const events: Partial<EventHandlers> = {};
